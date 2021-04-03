@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=52 format=2]
 
 [ext_resource path="res://player/PlayerBaseClass.tscn" type="PackedScene" id=1]
 [ext_resource path="res://player.gd" type="Script" id=2]
@@ -10,191 +10,191 @@
 atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=4]
+[sub_resource type="AtlasTexture" id=2]
 atlas = ExtResource( 3 )
 region = Rect2( 80, 48, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=5]
+[sub_resource type="AtlasTexture" id=3]
 atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=6]
+[sub_resource type="AtlasTexture" id=4]
 atlas = ExtResource( 3 )
 region = Rect2( 16, 0, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=7]
+[sub_resource type="AtlasTexture" id=5]
 atlas = ExtResource( 3 )
 region = Rect2( 32, 0, 16, 16 )
 
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 3 )
+region = Rect2( 48, 0, 16, 16 )
+
 [sub_resource type="AtlasTexture" id=8]
-atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=9]
-atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=10]
 atlas = ExtResource( 3 )
 region = Rect2( 80, 16, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=11]
+[sub_resource type="AtlasTexture" id=9]
 atlas = ExtResource( 3 )
 region = Rect2( 0, 32, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=12]
+[sub_resource type="AtlasTexture" id=10]
 atlas = ExtResource( 3 )
 region = Rect2( 16, 32, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=13]
+[sub_resource type="AtlasTexture" id=11]
 atlas = ExtResource( 3 )
 region = Rect2( 32, 32, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=14]
+[sub_resource type="AtlasTexture" id=12]
 atlas = ExtResource( 3 )
 region = Rect2( 48, 32, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=15]
+[sub_resource type="AtlasTexture" id=13]
 atlas = ExtResource( 3 )
 region = Rect2( 64, 32, 16, 16 )
 
-[sub_resource type="AtlasTexture" id=16]
+[sub_resource type="AtlasTexture" id=14]
 atlas = ExtResource( 3 )
 region = Rect2( 0, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 3 )
+region = Rect2( 16, 48, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 3 )
+region = Rect2( 32, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=17]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 48, 16, 16 )
+region = Rect2( 0, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=18]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 48, 16, 16 )
+region = Rect2( 16, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=19]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 64, 16, 16 )
+region = Rect2( 32, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=20]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 64, 16, 16 )
+region = Rect2( 48, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=21]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 64, 16, 16 )
+region = Rect2( 48, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=22]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 64, 16, 16 )
+region = Rect2( 64, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=23]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 48, 16, 16 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=24]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 48, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=37]
-atlas = ExtResource( 3 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 48, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=25]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
+region = Rect2( 64, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=26]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 0, 16, 16 )
+region = Rect2( 80, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=27]
 atlas = ExtResource( 3 )
-region = Rect2( 80, 0, 16, 16 )
+region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=28]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 16, 16, 16 )
+region = Rect2( 16, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=29]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 16, 16, 16 )
+region = Rect2( 32, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=30]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 16, 16, 16 )
+region = Rect2( 48, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=31]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 16, 16, 16 )
+region = Rect2( 64, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=32]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 16, 16, 16 )
+region = Rect2( 80, 32, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=33]
 atlas = ExtResource( 3 )
-region = Rect2( 80, 32, 16, 16 )
+region = Rect2( 0, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=34]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 48, 16, 16 )
+region = Rect2( 16, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=35]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 48, 16, 16 )
-
-[sub_resource type="AtlasTexture" id=36]
-atlas = ExtResource( 3 )
 region = Rect2( 32, 48, 16, 16 )
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=36]
 animations = [ {
 "frames": [ SubResource( 1 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 4 ) ],
+"frames": [ SubResource( 2 ) ],
 "loop": true,
 "name": "Hurt",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"frames": [ SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ) ],
 "loop": true,
 "name": "LookAround",
 "speed": 4.0
 }, {
-"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
+"frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
 "loop": true,
 "name": "Run",
 "speed": 12.0
 }, {
-"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
+"frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ) ],
 "loop": true,
 "name": "Ascend",
 "speed": 12.0
 }, {
-"frames": [ SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ) ],
-"loop": true,
+"frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": false,
 "name": "Kick",
-"speed": 8.0
+"speed": 1.0
 }, {
-"frames": [ SubResource( 23 ), SubResource( 24 ) ],
+"frames": [ SubResource( 21 ), SubResource( 22 ) ],
 "loop": true,
 "name": "Descend",
 "speed": 12.0
 }, {
-"frames": [ SubResource( 37 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 29 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 29 ), SubResource( 31 ), SubResource( 32 ), SubResource( 37 ) ],
+"frames": [ SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 28 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 28 ), SubResource( 30 ), SubResource( 31 ), SubResource( 23 ) ],
 "loop": true,
 "name": "Wave",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ) ],
+"frames": [ SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ) ],
 "loop": true,
 "name": "JumpStart",
 "speed": 12.0
 } ]
 
-[sub_resource type="Animation" id=38]
+[sub_resource type="Animation" id=37]
 resource_name = "Descend"
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
@@ -209,7 +209,7 @@ tracks/0/keys = {
 "values": [ "Descend" ]
 }
 
-[sub_resource type="Animation" id=39]
+[sub_resource type="Animation" id=38]
 resource_name = "Hurt"
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
@@ -224,7 +224,7 @@ tracks/0/keys = {
 "values": [ "Hurt" ]
 }
 
-[sub_resource type="Animation" id=40]
+[sub_resource type="Animation" id=39]
 resource_name = "Idle"
 length = 1.3
 loop = true
@@ -255,7 +255,7 @@ tracks/1/keys = {
 } ]
 }
 
-[sub_resource type="Animation" id=41]
+[sub_resource type="Animation" id=40]
 resource_name = "Jump"
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
@@ -270,8 +270,9 @@ tracks/0/keys = {
 "values": [ "JumpStart", "Ascend" ]
 }
 
-[sub_resource type="Animation" id=42]
+[sub_resource type="Animation" id=41]
 resource_name = "Kick"
+length = 0.6
 tracks/0/type = "value"
 tracks/0/path = NodePath("AnimatedSprite:animation")
 tracks/0/interp = 1
@@ -284,8 +285,48 @@ tracks/0/keys = {
 "update": 1,
 "values": [ "Kick" ]
 }
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.6 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "action_finished"
+} ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimatedSprite:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3 ]
+}
+tracks/3/type = "method"
+tracks/3/path = NodePath("..")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0.1 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "kick_moment"
+} ]
+}
 
-[sub_resource type="Animation" id=44]
+[sub_resource type="Animation" id=42]
 resource_name = "LookAround"
 length = 1.5
 loop = true
@@ -331,7 +372,7 @@ tracks/0/keys = {
 "values": [ "Run" ]
 }
 
-[sub_resource type="Animation" id=45]
+[sub_resource type="Animation" id=44]
 resource_name = "Wave"
 length = 2.4
 loop = true
@@ -362,9 +403,13 @@ tracks/1/keys = {
 } ]
 }
 
-[sub_resource type="CapsuleShape2D" id=3]
+[sub_resource type="CapsuleShape2D" id=45]
 radius = 3.12259
 height = 9.34887
+
+[sub_resource type="CapsuleShape2D" id=46]
+radius = 2.06285
+height = 4.40327
 
 [node name="Player" instance=ExtResource( 1 )]
 collision_mask = 2
@@ -374,20 +419,22 @@ script = ExtResource( 2 )
 script = ExtResource( 5 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Animation" index="0"]
-frames = SubResource( 2 )
-animation = "LookAround"
+frames = SubResource( 36 )
+animation = "Kick"
+frame = 3
 playing = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Animation" index="1"]
+playback_process_mode = 0
 method_call_mode = 1
-anims/Descend = SubResource( 38 )
-anims/Hurt = SubResource( 39 )
-anims/Idle = SubResource( 40 )
-anims/Jump = SubResource( 41 )
-anims/Kick = SubResource( 42 )
-anims/LookAround = SubResource( 44 )
+anims/Descend = SubResource( 37 )
+anims/Hurt = SubResource( 38 )
+anims/Idle = SubResource( 39 )
+anims/Jump = SubResource( 40 )
+anims/Kick = SubResource( 41 )
+anims/LookAround = SubResource( 42 )
 anims/Run = SubResource( 43 )
-anims/Wave = SubResource( 45 )
+anims/Wave = SubResource( 44 )
 
 [node name="IdleTimer" type="Timer" parent="Animation" index="2"]
 wait_time = 3.7
@@ -396,7 +443,7 @@ one_shot = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 visible = false
 position = Vector2( 0, 0.167044 )
-shape = SubResource( 3 )
+shape = SubResource( 45 )
 
 [node name="DebugLabel" type="Label" parent="." index="2"]
 margin_left = -43.2261
@@ -420,5 +467,16 @@ limit_smoothed = true
 smoothing_enabled = true
 offset_h = 1.0
 script = ExtResource( 4 )
+
+[node name="KickArea" type="Area2D" parent="." index="5"]
+collision_layer = 32
+collision_mask = 64
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KickArea" index="0"]
+position = Vector2( 0.0629959, 5.92163 )
+rotation = 1.5708
+shape = SubResource( 46 )
+disabled = true
+[connection signal="kick_finished" from="Animation" to="." method="_on_Animation_kick_finished"]
 [connection signal="timeout" from="Animation/IdleTimer" to="Animation" method="_on_IdleTimer_timeout"]
 [connection signal="timeout" from="JumpTimer" to="." method="_on_JumpTimer_timeout"]

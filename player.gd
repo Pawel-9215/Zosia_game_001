@@ -3,6 +3,8 @@ extends "res://player/PlayerBaseClass.gd"
 const UP = Vector2(0,-1)
 
 var velocity = Vector2.ZERO
+var input_vector = Vector2.ZERO
+
 var extra_jump_time = true # is player is allowed to jump after fall
 enum {
 	MOVE,
@@ -24,21 +26,37 @@ func _physics_process(delta):
 func move_state():
 	apply_gravity()
 	handle_jump()
+	handle_action()
+	handle_input()
 	update_movement()
 	jump_timer()
 	velocity = move_and_slide(velocity, UP)
 	printout_debug()
 
 func kick_state():
-	pass
+	apply_gravity()
+	#handle_jump()
+	#handle_action()
+	#update_movement()
+	#jump_timer()
+	velocity.x = move_toward(velocity.x, 0, FRICTION)
+	velocity = move_and_slide(velocity, UP)
+	printout_debug()
+	
+func kick_moment():
+	if $KickArea/CollisionShape2D.disabled == true:
+		$KickArea/CollisionShape2D.disabled = false
 
 func handle_input():
-	var input_vector = Vector2.ZERO
-	input_vector.x = Input.get_action_strength("go_right") - Input.get_action_strength("go_left")
-	return input_vector
+	var internal_input_vector = Vector2.ZERO
+	internal_input_vector.x = Input.get_action_strength("go_right") - Input.get_action_strength("go_left")
+	input_vector = internal_input_vector
+	
+func handle_action():
+	if Input.is_action_pressed("Action") and is_on_floor():
+		state = KICK
 	
 func update_movement():
-	var input_vector = handle_input()
 	if  input_vector != Vector2.ZERO:
 		velocity.x = move_toward(velocity.x, input_vector.x*SPEED, ACCELERATION)
 	else:
@@ -75,3 +93,8 @@ func jump_timer():
 
 func _on_JumpTimer_timeout():
 	extra_jump_time = false
+
+
+func _on_Animation_kick_finished():
+	$KickArea/CollisionShape2D.disabled = true
+	state = MOVE
