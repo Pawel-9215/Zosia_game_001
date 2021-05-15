@@ -9,21 +9,21 @@ var extra_jump_time = true # is player is allowed to jump after fall
 enum {
 	MOVE,
 	KICK,
-}
+} # these are the states for mini states machine 
 var state = MOVE
 
 func _ready():
 	pass # Replace with function body.
 
 
-func _physics_process(delta):
-	match state:
+func _physics_process(_delta):
+	match state:  # applied state mashine
 		MOVE:
 			move_state()
 		KICK:
 			kick_state()
 	
-func move_state():
+func move_state():  # function stack for moving state - default state
 	apply_gravity()
 	handle_jump()
 	handle_action()
@@ -33,7 +33,7 @@ func move_state():
 	velocity = move_and_slide(velocity, UP)
 	printout_debug()
 
-func kick_state():
+func kick_state():  # kick state
 	apply_gravity()
 	#handle_jump()
 	#handle_action()
