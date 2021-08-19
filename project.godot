@@ -19,6 +19,10 @@ config/name="Zosia Game 001"
 run/main_scene="res://Levels/LevelTemplate.tscn"
 config/icon="res://icon.png"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [display]
 
 window/size/width=256
@@ -92,4 +96,16 @@ Action={
 [rendering]
 
 quality/driver/driver_name="GLES2"
+quality/driver/fallback_to_gles2=true
+quality/intended_usage/framebuffer_allocation=1
+quality/intended_usage/framebuffer_allocation.mobile=1
+quality/2d/use_pixel_snap=true
+threads/thread_model=2
+quality/directional_shadow/size=1024
+quality/shadow_atlas/size=1024
+quality/reflections/texture_array_reflections=false
+quality/reflections/high_quality_ggx=false
+quality/shading/force_vertex_shading=true
+quality/shading/force_vertex_shading.mobile=false
+quality/depth/hdr=false
 environment/default_environment="res://default_env.tres"
