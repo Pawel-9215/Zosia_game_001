@@ -69,6 +69,7 @@ func handle_jump():
 	if Input.is_action_pressed("jump") and (is_on_floor() or extra_jump_time):
 		velocity.y = JUMP_SPEED
 		extra_jump_time = false
+		$JumpTimer.stop()
 
 func printout_debug():
 	$DebugLabel.text = str(velocity)

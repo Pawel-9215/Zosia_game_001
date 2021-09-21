@@ -32,107 +32,107 @@ region = Rect2( 64, 32, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=7]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 48, 16, 16 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=8]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 48, 16, 16 )
+region = Rect2( 16, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=9]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 48, 16, 16 )
+region = Rect2( 32, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=10]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 64, 16, 16 )
+region = Rect2( 48, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=11]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 64, 16, 16 )
+region = Rect2( 48, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=12]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 64, 16, 16 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=13]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 64, 16, 16 )
+region = Rect2( 80, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=14]
 atlas = ExtResource( 3 )
-region = Rect2( 80, 48, 16, 16 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=15]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 48, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=16]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 0, 16, 16 )
+region = Rect2( 64, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=17]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 0, 16, 16 )
+region = Rect2( 80, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=18]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
+region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=19]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
+region = Rect2( 16, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=20]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 48, 16, 16 )
+region = Rect2( 32, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=21]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 48, 16, 16 )
+region = Rect2( 48, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=22]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 64, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=23]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 0, 16, 16 )
+region = Rect2( 80, 32, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=24]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 0, 16, 16 )
+region = Rect2( 0, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=25]
 atlas = ExtResource( 3 )
-region = Rect2( 80, 0, 16, 16 )
+region = Rect2( 16, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=26]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 16, 16, 16 )
+region = Rect2( 32, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=27]
 atlas = ExtResource( 3 )
-region = Rect2( 16, 16, 16, 16 )
+region = Rect2( 0, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=28]
 atlas = ExtResource( 3 )
-region = Rect2( 32, 16, 16, 16 )
+region = Rect2( 16, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=29]
 atlas = ExtResource( 3 )
-region = Rect2( 48, 16, 16, 16 )
+region = Rect2( 32, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=30]
 atlas = ExtResource( 3 )
-region = Rect2( 64, 16, 16, 16 )
+region = Rect2( 48, 64, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=31]
 atlas = ExtResource( 3 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 48, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=32]
 atlas = ExtResource( 3 )
-region = Rect2( 80, 32, 16, 16 )
+region = Rect2( 64, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=33]
 atlas = ExtResource( 3 )
@@ -153,44 +153,44 @@ animations = [ {
 "name": "Run",
 "speed": 12.0
 }, {
-"frames": [ SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
-"loop": true,
-"name": "Ascend",
-"speed": 12.0
-}, {
-"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
-"loop": false,
-"name": "Kick",
-"speed": 1.0
-}, {
-"frames": [ SubResource( 14 ) ],
-"loop": true,
-"name": "Hurt",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ) ],
+"frames": [ SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ) ],
 "loop": true,
 "name": "LookAround",
 "speed": 4.0
 }, {
-"frames": [ SubResource( 20 ), SubResource( 21 ) ],
-"loop": true,
-"name": "Descend",
-"speed": 12.0
-}, {
-"frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 27 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 27 ), SubResource( 29 ), SubResource( 30 ), SubResource( 22 ) ],
-"loop": true,
-"name": "Wave",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 31 ) ],
+"frames": [ SubResource( 12 ) ],
 "loop": true,
 "name": "Idle",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ) ],
+"frames": [ SubResource( 13 ) ],
+"loop": true,
+"name": "Hurt",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 19 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 19 ), SubResource( 21 ), SubResource( 22 ), SubResource( 14 ) ],
+"loop": true,
+"name": "Wave",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ) ],
 "loop": true,
 "name": "JumpStart",
+"speed": 12.0
+}, {
+"frames": [ SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ) ],
+"loop": false,
+"name": "Kick",
+"speed": 1.0
+}, {
+"frames": [ SubResource( 31 ), SubResource( 32 ) ],
+"loop": true,
+"name": "Descend",
+"speed": 12.0
+}, {
+"frames": [ SubResource( 33 ), SubResource( 34 ), SubResource( 35 ) ],
+"loop": true,
+"name": "Ascend",
 "speed": 12.0
 } ]
 
@@ -460,7 +460,8 @@ __meta__ = {
 }
 
 [node name="JumpTimer" type="Timer" parent="." index="3"]
-wait_time = 0.2
+wait_time = 0.3
+one_shot = true
 
 [node name="Camera2D" type="Camera2D" parent="." index="4"]
 current = true
@@ -478,7 +479,6 @@ position = Vector2( 0.0629959, 5.92163 )
 rotation = 1.5708
 shape = SubResource( 46 )
 disabled = true
-
 [connection signal="kick_finished" from="Animation" to="." method="_on_Animation_kick_finished"]
 [connection signal="timeout" from="Animation/IdleTimer" to="Animation" method="_on_IdleTimer_timeout"]
 [connection signal="timeout" from="JumpTimer" to="." method="_on_JumpTimer_timeout"]
